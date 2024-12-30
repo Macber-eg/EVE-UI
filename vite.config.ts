@@ -7,6 +7,9 @@ export default defineConfig({
     typescript: false,
   })],
   server: {
+    host: '0.0.0.0', // Bind to all network interfaces
+    port: 3000,      // Specify the port
+    strictPort: true, // Prevent port fallback
     proxy: {
       '/rest/v1': {
         target: process.env.VITE_SUPABASE_URL,
