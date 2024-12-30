@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Shield, Lock, FileCheck, UserCheck, Server, Key } from 'lucide-react';
 
 export default function SecuritySection() {

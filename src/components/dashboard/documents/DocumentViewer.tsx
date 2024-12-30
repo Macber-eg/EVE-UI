@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { X, Download, FileText } from 'lucide-react';
 
 interface Document {

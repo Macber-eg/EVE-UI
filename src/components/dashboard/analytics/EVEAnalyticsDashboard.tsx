@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { useEVEStore } from '../../../store/eveStore';
 import EVEPerformanceMetrics from './EVEPerformanceMetrics';
 import { Brain, ChevronDown } from 'lucide-react';

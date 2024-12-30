@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { useForm } from '../../../hooks/useForm';
 import { Company } from '../../../types/company';
 import { Input } from '../../common/Input';

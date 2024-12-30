@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Brain, Activity, Clock, Plus, Zap, Bot } from 'lucide-react';
 
 interface AIModel {

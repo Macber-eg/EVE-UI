@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Check, Globe2, Clock, Bell, Shield, Users, Zap } from 'lucide-react';
 
 export default function GeneralSettings() {
@@ -121,7 +121,7 @@ export default function GeneralSettings() {
               />
               <div className="ml-3">
                 <span className="block text-white">Security Alerts</span>
-                <span className="block text-sm text-gray-400">Important security updates</span>
+                <span className="block text-sm text-gray-400">important security updates</span>
               </div>
             </label>
 

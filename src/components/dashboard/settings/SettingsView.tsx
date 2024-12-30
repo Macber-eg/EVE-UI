@@ -1,4 +1,4 @@
-import React from 'react';
+
 import BrandingSettings from './BrandingSettings';
 import AppearanceSettings from './AppearanceSettings';
 import GeneralSettings from './GeneralSettings';

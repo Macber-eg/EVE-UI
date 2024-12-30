@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { useCompanyStore } from '../../../store/companyStore';
 import { Plus, Brain, Building2 } from 'lucide-react';
 import { Link } from 'react-router-dom';

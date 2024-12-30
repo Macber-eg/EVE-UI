@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Users, Brain, Target, TrendingUp } from 'lucide-react';
 
 interface TeamCardProps {

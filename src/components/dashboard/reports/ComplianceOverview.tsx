@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Shield, CheckCircle, AlertTriangle } from 'lucide-react';
 
 interface Props {

@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import { Send, Brain, AlertTriangle, Paperclip, X } from 'lucide-react';
 import { EVE } from '../../../types/eve';
 import { useEVECommunication } from '../../../hooks/useEVECommunication';

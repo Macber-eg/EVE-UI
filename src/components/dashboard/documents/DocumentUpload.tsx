@@ -1,4 +1,4 @@
-import React, { useCallback, useState } from 'react';
+import { useCallback, useState } from 'react';
 import { useDropzone } from 'react-dropzone';
 import { Upload, AlertTriangle } from 'lucide-react';
 import { useKnowledgeBase } from '../../../hooks/useKnowledgeBase';

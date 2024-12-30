@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Clock, TrendingUp, Shield, Brain, Zap, Users } from 'lucide-react';
 
 export default function BenefitsSection() {

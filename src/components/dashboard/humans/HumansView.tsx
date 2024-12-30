@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Plus, Search, UserCircle, BrainCircuit, Mail, Building2 } from 'lucide-react';
 import HumanCard from './HumanCard';
 import NewHumanModal from './NewHumanModal';

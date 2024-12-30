@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Plus } from 'lucide-react';
 import { EVE } from '../../../../types/eve';
 import { EVEHeader } from './EVEHeader';

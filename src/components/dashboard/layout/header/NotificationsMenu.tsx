@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import { Bell, Brain, TrendingUp, Zap } from 'lucide-react';
 import { useNotifications } from '../../../../hooks/useNotifications';
 

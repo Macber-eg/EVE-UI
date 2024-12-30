@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { UserCircle, BrainCircuit, Mail, Clock, Shield, MoreVertical } from 'lucide-react';
 
 interface HumanCardProps {

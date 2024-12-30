@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { NotificationsMenu } from './header/NotificationsMenu';
 import { ProfileMenu } from './header/ProfileMenu';
 import { QuickActions } from './header/QuickActions';

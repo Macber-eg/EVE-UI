@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Upload, Check, RotateCcw } from 'lucide-react';
 import { useSettingsStore } from '../../../store/settingsStore';
 

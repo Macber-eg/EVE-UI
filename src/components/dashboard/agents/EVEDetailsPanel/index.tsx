@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { X, Brain } from 'lucide-react';
 import { EVE } from '../../../../types/eve';
 import { EVEPerformance } from './EVEPerformance';

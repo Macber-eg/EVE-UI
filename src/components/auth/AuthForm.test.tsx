@@ -1,5 +1,5 @@
 import { describe, it, expect, beforeEach } from 'vitest';
-import { render, screen, fireEvent, waitFor } from '../test/utils/test-utils';
+import { render, screen, fireEvent, waitFor } from '@testing-library/react';
 import AuthForm from './AuthForm';
 import { useAuthStore } from '../../store/authStore';
 

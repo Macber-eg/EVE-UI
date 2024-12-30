@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Brain, Target, MessageCircle, Shield, Banknote } from 'lucide-react';
 import { useSubscriptionStore } from '../../../store/subscriptionStore';
 import { prebuiltEVEService } from '../../../services/prebuilt-eves';

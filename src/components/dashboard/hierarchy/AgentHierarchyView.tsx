@@ -1,4 +1,4 @@
-import React, { useRef, useState, useEffect } from 'react';
+import { useRef, useState, useEffect } from 'react';
 import * as d3 from 'd3';
 import { Brain, Target, MessageCircle, Code, Shield, Rocket } from 'lucide-react';
 

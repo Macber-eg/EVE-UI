@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Calendar, ChevronDown, Download, Filter, Brain, Zap, Target, AlertTriangle } from 'lucide-react';
 import PerformanceMetrics from './PerformanceMetrics';
 import ResourceUtilization from './ResourceUtilization';

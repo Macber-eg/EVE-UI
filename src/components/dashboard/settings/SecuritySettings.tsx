@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Check, Key, Shield, Lock, AlertTriangle, FileText, Bell } from 'lucide-react';
 
 export default function SecuritySettings() {

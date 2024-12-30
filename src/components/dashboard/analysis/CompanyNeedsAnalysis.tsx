@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Building2, Users, Globe2, Brain, ArrowRight, AlertTriangle } from 'lucide-react';
 import { useAtlas } from '../../../hooks/useAtlas';
 import { EVE } from '../../../types/eve';

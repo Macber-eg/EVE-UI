@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Brain, Target, MessageCircle, TrendingUp, Users, ShieldCheck, Briefcase, Rocket } from 'lucide-react';
 
 const presetAgents = [

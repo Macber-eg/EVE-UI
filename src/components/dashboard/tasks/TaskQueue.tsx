@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Clock, CheckCircle, AlertTriangle, Brain } from 'lucide-react';
 import { useTaskQueue } from '../../../hooks/useTaskQueue';
 import { Task } from '../../../types/task';

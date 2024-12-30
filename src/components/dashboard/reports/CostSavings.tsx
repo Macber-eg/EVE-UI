@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { DollarSign, TrendingUp, Clock, Users } from 'lucide-react';
 
 interface Props {

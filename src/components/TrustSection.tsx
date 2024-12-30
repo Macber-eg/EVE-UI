@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Shield, Award, CheckCircle, Users, Brain, Zap, Lock } from 'lucide-react';
 
 export default function TrustSection() {

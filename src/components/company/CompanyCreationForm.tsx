@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useCompanyStore } from '../../store/companyStore';
 import { CompanySchema } from '../../types/company';

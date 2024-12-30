@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Activity, CheckCircle, Clock, AlertCircle, FileText, Bank, Users } from 'lucide-react';
 
 const activities = [

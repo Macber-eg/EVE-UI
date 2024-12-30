@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { useTaskQueue } from '../../../hooks/useTaskQueue';
 import { Task, TaskStatus } from '../../../types/task';
 import { Clock, CheckCircle, AlertTriangle, ArrowRight, Brain, Calendar, Target } from 'lucide-react';

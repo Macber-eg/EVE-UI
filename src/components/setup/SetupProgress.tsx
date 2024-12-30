@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Check, Building2, Key, Brain } from 'lucide-react';
 
 interface SetupProgressProps {

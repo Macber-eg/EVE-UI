@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Network, Lock, Zap, Globe2, MessageCircle, Database } from 'lucide-react';
 
 export default function IntegrationShowcase() {

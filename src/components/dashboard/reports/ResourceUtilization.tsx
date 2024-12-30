@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Cpu, Brain, Network, Database } from 'lucide-react';
 
 interface Props {

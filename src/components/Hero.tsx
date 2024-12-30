@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { useNavigate } from 'react-router-dom';
 import { Bot, Brain, Rocket, Infinity, ArrowRight, Building2, Globe2 } from 'lucide-react';
 

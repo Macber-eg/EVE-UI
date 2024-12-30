@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Lightbulb, ArrowRight, Brain } from 'lucide-react';
 
 const suggestions = [

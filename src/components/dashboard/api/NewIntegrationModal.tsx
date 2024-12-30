@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { X, Loader2, MessageSquare, CreditCard, ShoppingCart, Mail, Users, Image, Brain } from 'lucide-react';
 
 interface NewIntegrationModalProps {

@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { useForm } from '../../../hooks/useForm';
 import { Company } from '../../../types/company';
 import { Input } from '../../common/Input';
@@ -142,7 +142,7 @@ export function CompanySettingsForm({ companyType, onSubmit, error }: CompanySet
           options={[
             { value: 'low', label: 'Low - Minimal Notifications' },
             { value: 'medium', label: 'Medium - Balanced Notifications' },
-            { value: 'high', label: 'High - Important Updates Only' },
+            { value: 'high', label: 'High - important Updates Only' },
             { value: 'critical', label: 'Critical - Emergency Updates Only' }
           ]}
           error={errors['notification_preferences.urgency_threshold']}

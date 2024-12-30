@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import { Send, Maximize2, Minimize2, Brain } from 'lucide-react';
 import { useNova } from '../hooks/useNova';
 

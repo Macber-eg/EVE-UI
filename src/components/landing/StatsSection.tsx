@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Users, Brain, Zap, Globe2 } from 'lucide-react';
 
 export default function StatsSection() {

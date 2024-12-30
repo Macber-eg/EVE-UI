@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Activity, Clock } from 'lucide-react';
 import { EVE } from '../../../../types/eve';
 

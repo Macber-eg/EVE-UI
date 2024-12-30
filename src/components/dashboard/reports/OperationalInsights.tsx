@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Activity, ArrowRight, Brain, Zap, Target, Shield } from 'lucide-react';
 
 interface Props {

@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { Navigate, Outlet } from 'react-router-dom';
 import { useAdminStore } from '../../../store/adminStore';
 import { AdminSidebar } from './AdminSidebar';

@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Company } from '../../../types/company';
 import { useEVEStore } from '../../../store/eveStore';
 import { Brain, Target, Activity, Users, Plus, ArrowRight } from 'lucide-react';

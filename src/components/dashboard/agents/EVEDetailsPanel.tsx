@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Brain, Activity, Clock, Target } from 'lucide-react';
 import { EVE } from '../../../types/eve';
 import EVECommunicationPanel from './EVECommunicationPanel';

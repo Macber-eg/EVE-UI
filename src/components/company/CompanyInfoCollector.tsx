@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Brain, AlertTriangle } from 'lucide-react';
 import { useCompanyStore } from '../../store/companyStore';
 import { companyAnalyzerService } from '../../services/company-analyzer';

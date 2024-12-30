@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { AlertTriangle, CheckCircle, Clock, Brain } from 'lucide-react';
 
 interface InsightCardProps {

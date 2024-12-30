@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { TrendingUp, Users, Globe2, Award, Zap, Clock } from 'lucide-react';
 
 export default function TractionSection() {

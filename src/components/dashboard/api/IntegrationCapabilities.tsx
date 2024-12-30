@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { X, CreditCard, ShoppingCart, MessageCircle, Users, Image, Eye, TrendingUp, 
   AlertTriangle, FileText, HelpCircle, Target, Shield, Mail, Video, Calendar, 
   MessageSquare, Share2, Smartphone, Briefcase, Brain } from 'lucide-react';

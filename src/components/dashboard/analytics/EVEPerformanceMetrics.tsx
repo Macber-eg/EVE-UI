@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 import { Brain, Zap, Target, Clock } from 'lucide-react';
 import { EVE } from '../../../types/eve';

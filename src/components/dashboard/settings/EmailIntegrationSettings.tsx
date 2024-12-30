@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Mail, Check, AlertTriangle } from 'lucide-react';
 import { Input } from '../../common/Input';
 import { Button } from '../../common/Button';

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Brain, Rocket, Briefcase, Palette, BarChart, Search, MessageCircle, Code, Shield, Database, 
   FileText, Users, Globe, Megaphone, Mail, HeartPulse, Banknote, Scale, Building2, Truck, 
   ShoppingCart, Headphones, Camera, Lightbulb, Workflow, Network, ChevronDown, ChevronRight,

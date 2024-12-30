@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Brain, Target, MessageCircle, Shield } from 'lucide-react';
 import { useEVEStore } from '../../../../store/eveStore';
 import { EVE } from '../../../../types/eve';

@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { EVE } from '../../../../types/eve';
 
 interface EVEModelsProps {

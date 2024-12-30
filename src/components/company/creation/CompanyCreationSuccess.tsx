@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { CheckCircle, ArrowRight } from 'lucide-react';
 import { Company } from '../../../types/company';
 import { Button } from '../../common/Button';

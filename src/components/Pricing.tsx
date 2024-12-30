@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Check, Building2, Rocket, Globe2, Shield, Lock, Zap } from 'lucide-react';
 import { Link } from 'react-router-dom';
 

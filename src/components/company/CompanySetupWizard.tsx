@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Building2, Globe2, Users, ChevronRight, ChevronLeft, Check } from 'lucide-react';
 import { useCompanyStore } from '../../store/companyStore';

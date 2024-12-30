@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { X, UserCircle, Mail, Building2, Shield, BrainCircuit } from 'lucide-react';
 
 interface NewHumanModalProps {

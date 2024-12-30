@@ -10,6 +10,7 @@ describe('Button', () => {
   });
 
   it('handles click events', () => {
+    // @ts-ignore
     const handleClick = vi.fn();
     render(<Button onClick={handleClick}>Click me</Button>);
     

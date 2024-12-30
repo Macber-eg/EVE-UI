@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { useForm } from '../../hooks/useForm';
 import { useAuthStore } from '../../store/authStore';
 import { AuthFormSchema } from '../../types/auth';

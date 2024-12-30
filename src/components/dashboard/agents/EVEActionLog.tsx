@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { format } from 'date-fns';
 import { CheckCircle, AlertTriangle, Clock, Brain, MessageCircle, Zap } from 'lucide-react';
 import { EVEAction } from '../../../types/eve';

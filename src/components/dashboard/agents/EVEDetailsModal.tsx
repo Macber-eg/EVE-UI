@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { X, Brain, Activity, Clock, CheckCircle, AlertTriangle, Filter } from 'lucide-react';
 import { EVE, EVEAction } from '../../../types/eve';
 import { format } from 'date-fns';

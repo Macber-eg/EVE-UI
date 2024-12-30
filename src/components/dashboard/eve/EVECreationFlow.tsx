@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import CompanyNeedsAnalysis from '../analysis/CompanyNeedsAnalysis';
 import EVERecommendations from './EVERecommendations';
 import EVECreationSuccess from './EVECreationSuccess';

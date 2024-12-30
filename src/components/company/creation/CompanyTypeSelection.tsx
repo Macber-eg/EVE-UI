@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Building2, Briefcase, Heart } from 'lucide-react';
 import { Company } from '../../../types/company';
 

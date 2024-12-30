@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Brain, TrendingUp, Zap, Target } from 'lucide-react';
 import InsightCard from './InsightCard';
 import OptimizationSuggestions from './OptimizationSuggestions';

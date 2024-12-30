@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import { Mic, Send, Maximize2, Minimize2, X, Brain, Upload, Link } from 'lucide-react';
 import { Link as RouterLink } from 'react-router-dom';
 
