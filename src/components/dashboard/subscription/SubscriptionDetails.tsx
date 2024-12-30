@@ -1,4 +1,3 @@
-```tsx
 import React from 'react';
 import { Clock, Users, Database, Zap } from 'lucide-react';
 import { useSubscriptionStore } from '../../../store/subscriptionStore';
@@ -112,4 +111,3 @@ export default function SubscriptionDetails() {
     </div>
   );
 }
-```

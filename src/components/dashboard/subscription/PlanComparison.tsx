@@ -1,4 +1,3 @@
-```tsx
 import React from 'react';
 import { Check, X } from 'lucide-react';
 
@@ -105,4 +104,3 @@ export default function PlanComparison({ currentPlan, onSelectPlan }: PlanCompar
     </div>
   );
 }
-```

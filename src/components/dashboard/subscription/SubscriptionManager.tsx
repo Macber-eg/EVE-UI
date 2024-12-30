@@ -1,4 +1,3 @@
-```tsx
 import React, { useState } from 'react';
 import { useSubscriptionStore } from '../../../store/subscriptionStore';
 import SubscriptionDetails from './SubscriptionDetails';
@@ -68,4 +67,3 @@ export default function SubscriptionManager() {
     </div>
   );
 }
-```
