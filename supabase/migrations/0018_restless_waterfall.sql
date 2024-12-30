@@ -1,0 +1,41 @@
+-- Disable row level security first
+ALTER TABLE IF EXISTS public.companies DISABLE ROW LEVEL SECURITY;
+ALTER TABLE IF EXISTS public.eves DISABLE ROW LEVEL SECURITY;
+ALTER TABLE IF EXISTS public.tasks DISABLE ROW LEVEL SECURITY;
+ALTER TABLE IF EXISTS public.eve_messages DISABLE ROW LEVEL SECURITY;
+ALTER TABLE IF EXISTS public.subscriptions DISABLE ROW LEVEL SECURITY;
+ALTER TABLE IF EXISTS public.company_api_keys DISABLE ROW LEVEL SECURITY;
+ALTER TABLE IF EXISTS public.notifications DISABLE ROW LEVEL SECURITY;
+ALTER TABLE IF EXISTS public.documents DISABLE ROW LEVEL SECURITY;
+ALTER TABLE IF EXISTS public.admin_users DISABLE ROW LEVEL SECURITY;
+ALTER TABLE IF EXISTS public.admin_audit_logs DISABLE ROW LEVEL SECURITY;
+ALTER TABLE IF EXISTS public.admin_settings DISABLE ROW LEVEL SECURITY;
+
+-- Drop all tables in correct order to handle dependencies
+DROP TABLE IF EXISTS public.notifications CASCADE;
+DROP TABLE IF EXISTS public.company_api_keys CASCADE;
+DROP TABLE IF EXISTS public.subscriptions CASCADE;
+DROP TABLE IF EXISTS public.eve_messages CASCADE;
+DROP TABLE IF EXISTS public.tasks CASCADE;
+DROP TABLE IF EXISTS public.eves CASCADE;
+DROP TABLE IF EXISTS public.documents CASCADE;
+DROP TABLE IF EXISTS public.companies CASCADE;
+DROP TABLE IF EXISTS public.admin_audit_logs CASCADE;
+DROP TABLE IF EXISTS public.admin_settings CASCADE;
+DROP TABLE IF EXISTS public.admin_users CASCADE;
+DROP TABLE IF EXISTS public._migrations CASCADE;
+
+-- Drop custom functions
+DROP FUNCTION IF EXISTS public.exec_sql CASCADE;
+DROP FUNCTION IF EXISTS public.version CASCADE;
+DROP FUNCTION IF EXISTS public.handle_updated_at CASCADE;
+DROP FUNCTION IF EXISTS public.match_documents CASCADE;
+DROP FUNCTION IF EXISTS public.log_audit_event CASCADE;
+DROP FUNCTION IF EXISTS public.notify_eve_creation CASCADE;
+DROP FUNCTION IF EXISTS public.validate_eve_data CASCADE;
+DROP FUNCTION IF EXISTS public.validate_eve_message CASCADE;
+
+-- Drop extensions if needed
+DROP EXTENSION IF EXISTS "uuid-ossp" CASCADE;
+DROP EXTENSION IF EXISTS "pgcrypto" CASCADE;
+DROP EXTENSION IF EXISTS "vector" CASCADE;
